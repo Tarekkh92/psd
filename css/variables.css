@@ -1,0 +1,36 @@
+ /*  Import Fonts */
+
+
+ /* Poppins */
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+ /* Lato */
+ @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+ /* Garamond */
+ @font-face {
+     font-family: "Garamond";
+     src: url("../fonts/Garamond\ Regular.ttf");
+ }
+
+ /* ----------------------------------------
+     Variables
+ ---------------------------------------- */
+
+ :root {
+
+     /* font Variables */
+     --font-poppin: 'Poppins', sans-serif;
+     --font-garamond: 'Garamond', serif;
+     --font-lato: 'Lato', sans-serif;
+
+     /* Color Variables */
+     --color-hot-pink: #CD3266;
+     --color-dark-pink: #96106D;
+     --color-red: #D60000;
+     --color-white: #fff;
+     --color-black: #000;
+     --gradient-pink: linear-gradient(to right, #cd3266 0%, #98126d 100%, #95106d 100%);
+     --instagram-gradient: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
+
+ }

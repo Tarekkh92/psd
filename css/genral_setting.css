@@ -1,0 +1,33 @@
+/* Genral Setting */
+
+*::before,
+*::after,
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 62.5%;
+    color: var(--color-black);
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--color-white);
+    font-size: 1.6rem;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
